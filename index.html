@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action= "sucesso.php" method="POST">
+        <h1>Cliente</h1>
+        <div>
+            <label>Nome: </label>
+            <input type="text" name="nome" placeholder="Digite o nome do cliente" required>
+            <br>
+            <label>Data de nascimento: </label>
+            <input type="date" name="aniversario" required>
+        </div>
+        <div>
+            <label>Última visita: </label>
+            <input type="text" name="visita" placeholder="Digite a última vez que o clinete veio ao salão" required>
+            <br>
+            <label>CPF: </label>
+            <input type="text" name="cpf" required>
+        </div>
+        <div>
+            <label>Telefone:</label>
+            <input type="text" name="telefone" placeholder="ex: (99)98888-8888" required>
+            <br>
+            <label>Email:</label>
+            <input type="text" name="email" placeholder="Digite o email do cliente">
+        </div>
+        <div>
+            <label>Serviço: </label>
+            <input type="text" name="servico" placeholder="Digite o serviço que o cliente geralmente pede" required>
+            <br>
+            <label>Produtos favoritos: </label>
+            <input type="text" name="produto" placeholder="Digite qual produto o cliente gosta de usar">
+        </div>
+        <div>
+            <label>Alergias: </label>
+            <input type="text" name="alergias" placeholder="Digite se o cliente tem alergia à algum produto" required>
+            <br>
+        </div>
+        <div class="enviar">
+            <label>Enviar: </label>
+            <input type="submit">
+        </div>
+    </form>
+?>
+compartilhar
+</body>
+
+</html>
